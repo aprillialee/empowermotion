@@ -80,7 +80,7 @@ const Title = styled.h1`
   margin-top: 470px;
 
   @media (max-width: 768px) {
-    margin-top: 350px;
+    margin-top: 0px;
   }
 `;
 
@@ -91,7 +91,7 @@ const Release = styled.h2`
   font-weight: 300;
   margin-top: 520px;
   @media (max-width: 1024px) {
-    margin-top: 400px;
+    margin-top: 50px;
   }
 `;
 
