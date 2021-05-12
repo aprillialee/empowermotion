@@ -72,32 +72,4 @@ const Emp = styled.h1`
   z-index: 1000;
 `;
 
-const Release = styled.h2`
-  font-size: 20px;
-  color: white;
-  position: absolute;
-  font-weight: 300;
-  z-index: 1000;
-  margin-top: 2em;
-`;
-
 export default App;
-/*  margin-top: 520px;
-@media (max-width: 1024px) {
-  margin-top: 50px;
-}
-
-
-const Title = styled.h1`
-  font-size: 2.5vw;
-  color: white;
-  position: absolute;
-  font-weight: 400;
-`;
-  margin-top: 470px;
-
-  @media (max-width: 768px) {
-    margin-top: 0px;
-  }
-
-  */
