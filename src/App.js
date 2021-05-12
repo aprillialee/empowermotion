@@ -38,6 +38,7 @@ function App() {
 
 const PageStyled = styled.div`
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
@@ -55,6 +56,11 @@ const SvgStyled = styled.div`
   width: 70%;
   height: 80%;
   position: absolute;
+
+  @media (max-width: 768px) {
+    width: 80%;
+    height: 90%;
+  }
 `;
 
 const Emp = styled.h1`
@@ -72,6 +78,10 @@ const Title = styled.h1`
   position: absolute;
   font-weight: 400;
   margin-top: 470px;
+
+  @media (max-width: 768px) {
+    margin-top: 350px;
+  }
 `;
 
 const Release = styled.h2`
@@ -80,6 +90,9 @@ const Release = styled.h2`
   position: absolute;
   font-weight: 300;
   margin-top: 520px;
+  @media (max-width: 1024px) {
+    margin-top: 400px;
+  }
 `;
 
 export default App;
