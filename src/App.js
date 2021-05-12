@@ -1,6 +1,7 @@
 import React from "react";
 
 import Timer from "./Components/Timer";
+import SocialMedia from "./Components/SocialMedia";
 
 import styled from "styled-components";
 
@@ -33,8 +34,8 @@ function App() {
           </svg>
         </SvgStyled>
         <Emp>EMPOWERMOTION</Emp>
-        <Release>COMING SOON</Release>
         <Timer />
+        <SocialMedia />
       </PageStyled>
     </>
   );
