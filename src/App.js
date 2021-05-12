@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 import Timer from "./Components/Timer";
 
@@ -32,8 +32,8 @@ function App() {
             />
           </svg>
         </SvgStyled>
-
         <Emp>EMPOWERMOTION</Emp>
+        <Release>COMING SOON</Release>
         <Timer />
       </PageStyled>
     </>
@@ -76,20 +76,8 @@ const Release = styled.h2`
   color: white;
   position: absolute;
   font-weight: 300;
-`;
-
-const TimerContainer = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 80%;
-  width: 75%;
-  z-index: 2;
-  border: 2px solid white;
-  border-radius: 8px;
-  color: white;
-  font-size: 7vw;
-  font-weight: 400;
+  z-index: 1000;
+  margin-top: 2em;
 `;
 
 export default App;
