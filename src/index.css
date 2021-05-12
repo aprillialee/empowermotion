@@ -4,11 +4,7 @@ body {
   font-family: "Frank Ruhl Libre", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(
-    116.47deg,
-    #0d0404 12.82%,
-    rgba(13, 4, 4, 0) 108.83%
-  );
+  background: black;
 }
 
 code {
