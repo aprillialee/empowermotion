@@ -157,6 +157,7 @@ const SvgStyled = styled.div`
 
   @media (max-width: 768px) {
     width: 80%;
+    height: 45%;
     margin: -100px 0 0 35%;
   }
 
