@@ -1,10 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400&family=Libre+Franklin:wght@500&display=swap");
+html,
 body {
   margin: 0 auto;
   font-family: "Frank Ruhl Libre", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: black;
+  background: linear-gradient(
+    116.47deg,
+    #0d0404 12.82%,
+    rgba(13, 4, 4, 0) 108.83%
+  );
+  height: 100%;
+  overflow: hidden;
 }
 
 code {
