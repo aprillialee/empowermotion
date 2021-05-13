@@ -87,8 +87,6 @@ const TimerStyled = styled.div`
   }
 
   @media (max-width: 414px) {
-    position: absolute;
-    margin-top: 300px;
   }
 `;
 
