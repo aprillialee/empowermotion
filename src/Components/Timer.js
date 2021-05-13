@@ -85,6 +85,10 @@ const TimerStyled = styled.div`
     height: 10%;
     width: 70%;
   }
+
+  @media (max-width: 414px) {
+    margin-top: -100px;
+  }
 `;
 
 const TimerContainer = styled.div`

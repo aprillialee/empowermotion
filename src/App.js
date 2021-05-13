@@ -178,7 +178,7 @@ const Emp = styled.h1`
 
   @media (max-width: 768px) {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 `;
 
