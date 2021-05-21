@@ -28,6 +28,7 @@ const ButtonStyled = styled.button`
 
   @media (max-width: 769px) {
     margin-top: -100px;
+    margin-bottom: 150px;
   }
 
   @media (max-width: 500px) {
