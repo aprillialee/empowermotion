@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 
 import Timer from "./Components/Timer";
 import SocialMedia from "./Components/SocialMedia";
+import Button from "./Components/Button";
 
 import styled from "styled-components";
 
@@ -133,6 +134,11 @@ function App() {
           </svg>
         </SvgStyled>
         <Timer />
+        <Text>
+          Click The Link Below To Sign Up For Our Exclusive Launch Party On 4th
+          June
+        </Text>
+        <Button />
         <SocialMedia />
       </PageStyled>
     </>
@@ -180,6 +186,26 @@ const Emp = styled.h1`
   @media (max-width: 768px) {
     margin-top: 20px;
     margin-bottom: 40px;
+  }
+`;
+
+const Text = styled.h1`
+  width: 45%;
+  height: 20%;
+  font-size: 20px;
+  color: white;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 15px;
+
+  @media (max-width: 769px) {
+    width: 75%;
+  }
+
+  @media (max-width: 450px) {
+    font-size: 20px;
+    width: 80%;
   }
 `;
 

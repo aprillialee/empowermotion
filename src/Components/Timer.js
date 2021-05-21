@@ -5,7 +5,7 @@ import styled from "styled-components";
 function Timer() {
   const calculateTimeLeft = () => {
     let year = new Date().getFullYear();
-    let difference = +new Date(`06/02/${year}`) - +new Date();
+    let difference = +new Date(`06/04/${year}`) - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -73,13 +73,14 @@ const TimerStyled = styled.div`
   flex-direction: row nowrap;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: -60px;
+  margin-top: -150px;
   width: 35%;
   height: 15%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background: rgba(255, 255, 255, 0.35);
   border-radius: 8px;
   z-index: 100;
+  margin-bottom: 2px;
 
   @media (max-width: 1024px) {
     height: 10%;
