@@ -20,7 +20,7 @@ const ButtonStyled = styled.button`
   background: #00a3b2;
   border: #00a3b2 1px solid;
   border-radius: 46px;
-  z-index: 10000;
+  z-index: 100002;
   margin-top: -25px;
   margin-bottom: 20px;
   cursor: pointer;
