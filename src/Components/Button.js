@@ -5,6 +5,7 @@ function Button() {
     <a
       href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NzhsczU2dmpwZWE4ZTZyZ2dmcGFrOWs5bG0gb2dmamFhMXJ0aXIwZWo2YWFwanVyc3Brb2NAZw&tmsrc=ogfjaa1rtir0ej6aapjurspkoc%40group.calendar.google.com"
       target="_blank"
+      rel="noopener noreferrer"
     >
       <ButtonStyled>
         <Text>EXCLUSIVE LAUNCH</Text>
