@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 function Button() {
   return (
-    <a href="https://www.facebook.com/events/136376708443870/">
+    <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NzhsczU2dmpwZWE4ZTZyZ2dmcGFrOWs5bG0gb2dmamFhMXJ0aXIwZWo2YWFwanVyc3Brb2NAZw&tmsrc=ogfjaa1rtir0ej6aapjurspkoc%40group.calendar.google.com">
       <ButtonStyled>
         <Text>EXCLUSIVE LAUNCH</Text>
       </ButtonStyled>
