@@ -34,7 +34,7 @@ const ButtonStyled = styled.button`
     margin-bottom: 150px;
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 501px) {
     margin-top: -80px;
   }
 `;
